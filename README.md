@@ -4,7 +4,6 @@ A **Streamlit** web app for analyzing restaurant review sentiment (**Positive �
 Upload your dataset, train multiple machine learning models, pick the best one automatically, and make predictions instantly.  
 Supports saving/loading trained models for quick reuse.
 
----
 
 ##  Features
 - Upload a restaurant review dataset (`Restaurant_Reviews.tsv`)
@@ -15,7 +14,6 @@ Supports saving/loading trained models for quick reuse.
 - Predict sentiment for new customer reviews
 - Confidence score (when supported by model)
 
----
 
 ##  Dataset Format
 Your dataset should be **tab-separated (`.tsv`)** with:
@@ -33,9 +31,6 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 ### 3️⃣ Add dataset Place `Restaurant_Reviews.tsv` in the project root folder (or upload through the app).
 ### 4️⃣ Start the Streamlit app
 
-<<<<<<< HEAD
-## ⚙️ How It Works
-=======
 ## How It Works
 >>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
 1. **Preprocessing**
@@ -52,8 +47,6 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 4. **Prediction**
    - Enter a review → app shows sentiment (Positive or Negative) + confidence score (if available)
 
----
-
 ##  Example Predictions
 | Review                                        | Prediction | Confidence |
 |-----------------------------------------------|------------|------------|
@@ -61,19 +54,9 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 | Food was cold and the service was terrible    | Negative 👎 | 94%        |
 | It was okay. Nothing special but decent price | Positive 👍 | 66%        |
 
-<<<<<<< HEAD
----
-
----
-=======
->>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
-
 ##  Credits
 - **NLTK** for stopwords and stemming
 - **scikit-learn** for ML algorithms & TF-IDF vectorization
 - **Streamlit** for the UI
 <<<<<<< HEAD
 - Code written and assembled by Prateek Prasad Deshpande
-=======
-- Code written and assembled by Prateek P D
->>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
