@@ -27,13 +27,17 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 - **Review** → text of the review  
 - **Liked** → 1 for positive, 0 for negative
 
-## 🚀 How to Run
+##  How to Run
 ### 1️⃣ Clone the repository
 ### 2️⃣ Install dependencies
 ### 3️⃣ Add dataset Place `Restaurant_Reviews.tsv` in the project root folder (or upload through the app).
 ### 4️⃣ Start the Streamlit app
 
+<<<<<<< HEAD
 ## ⚙️ How It Works
+=======
+## How It Works
+>>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
 1. **Preprocessing**
    - Lowercases text
    - Removes non-letter characters
@@ -57,12 +61,19 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 | Food was cold and the service was terrible    | Negative 👎 | 94%        |
 | It was okay. Nothing special but decent price | Positive 👍 | 66%        |
 
+<<<<<<< HEAD
 ---
 
 ---
+=======
+>>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
 
 ##  Credits
 - **NLTK** for stopwords and stemming
 - **scikit-learn** for ML algorithms & TF-IDF vectorization
 - **Streamlit** for the UI
+<<<<<<< HEAD
 - Code written and assembled by Prateek Prasad Deshpande
+=======
+- Code written and assembled by Prateek P D
+>>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
