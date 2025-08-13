@@ -32,7 +32,7 @@ Your dataset should be **tab-separated (`.tsv`)** with:
 ### 4️⃣ Start the Streamlit app
 
 ## How It Works
->>>>>>> e2826a141759de4559685ae1031c8a30ba2fb484
+
 1. **Preprocessing**
    - Lowercases text
    - Removes non-letter characters
