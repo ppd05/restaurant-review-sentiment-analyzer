@@ -265,7 +265,7 @@ def main():
     st.markdown("""
     <div class="main-header">
         <h1>🍽️ RestaurantScope</h1>
-        <h3>AI-Powered Restaurant Review Sentiment Analysis</h3>
+        <h3>ML-Powered Restaurant Review Sentiment Analyzer</h3>
         <p>Discover what customers really think about their dining experience</p>
     </div>
     """, unsafe_allow_html=True)
